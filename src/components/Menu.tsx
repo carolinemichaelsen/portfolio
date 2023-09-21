@@ -14,7 +14,7 @@ const DropdownMenu = () => {
   };
 
   return (
-      <div className="sticky inline-block top-0 left-0 w-full p-2">
+      <div className="stick inline-block top-0 left-0 w-full p-2">
         <button
           className="px-3 py-2 bg-purple-200 text-zinc-500 rounded-full"
           onClick={toggleDropdown}
