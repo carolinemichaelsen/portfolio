@@ -1,3 +1,5 @@
+import '../app/globals.css';
+
 import Head from 'next/head'
 import DropdownMenu from '@/components/Menu'
 import Hero from '@/components/Hero'
@@ -6,7 +8,7 @@ import Skills from '@/components/Skills'
 import Projects from '@/components/Projects'
 import Footer from '@/components/Footer'
 
-export default function Home() {
+export default function Home({...pageProps}) {
   return (
     <>
       <Head>
