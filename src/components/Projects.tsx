@@ -4,9 +4,6 @@ import { BiLogoReact, BiLogoTypescript, BiLogoTailwindCss, BiLogoJavascript } fr
 import { AiFillGithub } from 'react-icons/ai'
 
 import '../app/globals.css'
-import { Space_Grotesk } from "next/font/google";
-
-const spaceGrotesk = Space_Grotesk({ subsets: ['latin'] })
 
 export default function Projects() { return(
 <div className="m-12 pt-10 sm:pt-18 lg:pt-24">
