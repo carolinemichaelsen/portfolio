@@ -1,21 +1,19 @@
 import React from "react"
-import { BiLogoReact, BiLogoJavascript, BiLogoFigma } from 'react-icons/bi';
+import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 
 export default function About() {
+
     return (
-        <div className='flex flex-row bg-gray-300 shadow-lg shadow-gray-500 py-4 px-6 w-full columns-2'>
+        <div className='flex flex-row bg-gray-300 shadow-lg shadow-gray-500 justify-center w-full columns-2'>
             <div className='text-xl leading-loose text-center'>
-                <p className='p-20 text-center text-sm'>
-                    Migrando da comunicação para o desenvolvimento Front end.
+                <p className='p-20 text-sm max-w-md text-left'>
+                Há um pouco mais de <RoughNotation type='circle' show={true} color='purple'>um ano</RoughNotation> estudando em plataformas como <RoughNotation type="highlight" show={true} color="#ffd54f">Alura, Coursera,</RoughNotation><RoughNotation type='highlight' show={true} color='pink'> Scrimba e freeCodeCamp.</RoughNotation>
                 </p>
-                <div className='flex flex-row p-2 gap-2'>
-                    <BiLogoReact />
-                    <BiLogoJavascript />
-                    < BiLogoFigma />
-                </div>
             </div>
-            <div>
-                <p>oiii</p>
+            <div className='text-xl leading-loose text-center'>
+                <p className='p-20 text-sm max-w-md text-left'>
+                Há um pouco mais de <RoughNotation type='circle' show={true} color='purple'>um ano</RoughNotation> estudando em plataformas como <RoughNotation type="highlight" show={true} color="#ffd54f">Alura, Coursera,</RoughNotation><RoughNotation type='highlight' show={true} color='pink'> Scrimba e freeCodeCamp.</RoughNotation>
+                </p>
             </div>
         </div>
     )
