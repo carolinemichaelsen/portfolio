@@ -8,7 +8,7 @@ export default function Hero() {
             <div className="relative max-w-5xl mx-auto p-30 sm:p-24 lg:p-32">
                 <div className="w-10 h-0 border-2 border-black"></div>
                 <div className="text-black text-xs font-manrope">oi, eu sou a carol</div>
-                <div className="text-black text-5xl font-h3 mt-4 leading-28"><RoughNotation type='highlight' color='#1EC970' show={true}>Desenvolvedora </RoughNotation><br/><RoughNotation type="highlight" color='#F3ACCE' show={true}>Front-end</RoughNotation></div>
+                <div className="text-black text-5xl font-h3 mt-4 leading-snug"><RoughNotation type='highlight' color='#1EC970' show={true}>Desenvolvedora </RoughNotation><br/><RoughNotation type="highlight" color='#F3ACCE' show={true}>Front-end</RoughNotation></div>
             </div>
             <div className="p-30 sm:p-24 lg:p-32 w-200 text-black text-sm font-manrope">Criação de produtos digitais acessíveis e responsivos.<br></br><br></br>
             <RoughNotation type='highlight' color='#f6db84' show={true}><b>React</b>, React Native, <b>JavaScript</b>, TypeScript, <b>Tailwind</b>, HTML e CSS. </RoughNotation> 

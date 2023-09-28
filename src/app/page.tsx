@@ -18,8 +18,8 @@ export default function Home({...pageProps}) {
         <DropdownMenu />
         <Hero />
         <About />
-        <Skills />
-        <Projects />
+{/*         <Skills />
+ */}        <Projects />
         <Footer />
       </div>
     </>
