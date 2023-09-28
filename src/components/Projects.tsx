@@ -6,14 +6,12 @@ import { AiFillGithub } from 'react-icons/ai'
 import '../app/globals.css'
 
 export default function Projects() { return(
-<div className="m-12 pt-10 sm:pt-18 lg:pt-24">
-  <div>
+<div className="pt-10 sm:pt-18 lg:pt-24 justify-center">
     <h3 className='text-zinc-900 font-bold text-4xl text-center mb-8 font-h3'>Projetos</h3>
-  </div>
   <div className='flex flex-row columns-3  p-20 items-stretch gap-10'>
 
     {/* PROJETO 1 */}
-    <div className="p-8 bg-zinc-400 opacity-90 rounded-lg outline hover:outline-zinc-300">
+    <div className="p-8 bg-zinc-400 opacity-90 rounded-lg outline hover:outline-zinc-300 justify-center">
       <p className="text-zinc-900 font-bold text-s font-h3 mb-6">Clone do Spotify Web</p>
       <Image src='/imgs/spotify.png' width={200} height={100} alt='' className='hover:opacity-80 cursor-pointer rounded-md items-center'/>
       <div className='flex flex-col'>
@@ -32,11 +30,11 @@ export default function Projects() { return(
     </div>
 
     {/* PROJETO 2 */}
-    <div className="p-8 bg-zinc-400 opacity-90 rounded-lg outline hover:outline-zinc-300">
+    <div className="p-8 bg-zinc-400 opacity-90 rounded-lg outline hover:outline-zinc-300 justify-center">
       <p className="text-zinc-900 font-bold text-s font-h3 mb-6">Site Responsivo</p>
       <Image src='/imgs/preview-mobile.png' width={200} height={100} alt='' className='hover:opacity-80 cursor-pointer rounded-md items-center'/>
       <div className='flex flex-col'>
-        <p className='text-xs text-justify max-w-xs mt-6 mb-2'>Usei <b>React</b> e <b>Tailwind</b> criar uma página home responsiva e com um menu com navegação dropdown.</p>
+        <p className='text-xs text-justify max-w-xs mt-6 mb-2'>Página home responsiva e com um menu com navegação dropdown.</p>
         <div className='flex flex-row gap-2 mt-2'>
           <BiLogoReact />
           <BiLogoTypescript />
