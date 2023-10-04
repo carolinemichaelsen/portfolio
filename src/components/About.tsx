@@ -17,14 +17,13 @@ export default function About() {
             <div className='p-20 leading-loose text-right'>
                 <p className=' text-sm max-w-md'>
                 Formação <RoughNotation type='circle' show={true} color='red'>React</RoughNotation> na Alura.</p>
-                <p className="text-xs mt-2">Tempo total: <RoughNotation type="highlight" show={true} color="#ffd54f">67 horas.</RoughNotation></p>
+                <span className="text-xs mt-2">Tempo total: <RoughNotation type="highlight" show={true} color="#ffd54f">67 horas.</RoughNotation></span>
                 <p className='p-2 text-sm max-w-md'>
                 Formação <RoughNotation type='underline' show={true} color='purple'>JavaScript</RoughNotation> na Alura.</p>
-                <p className="text-xs mt-2">Tempo total: <RoughNotation type="highlight" show={true} color="#ffd54f">65 horas.</RoughNotation></p>
+                <span className="text-xs mt-2">Tempo total: <RoughNotation type="highlight" show={true} color="#ffd54f">65 horas.</RoughNotation></span>
                 <p className='p-2 text-sm max-w-md'>
-                Formação <RoughNotation type='underline' show={true} color='purple'>React Native</RoughNotation> na Alura.<br></br>
-                <p className="text-xs mt-2">Em andamento.</p> 
-                </p>    
+                Formação <RoughNotation type='underline' show={true} color='purple'>React Native</RoughNotation> na Alura.</p>
+                <span className="text-xs mt-2">Em andamento.</span>     
             </div>
         </div>
     )
