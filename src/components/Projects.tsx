@@ -68,7 +68,7 @@ export default function Projects() { return(
                   <BiLogoTypescript className="text-2xl text-zinc-900" />
                   <BiLogoTailwindCss className="text-2xl text-zinc-900" />
                 </div>
-                <a href="https://github.com/carolinemichaelsen/spotify-clone" target="_blank">
+                <a href="https://github.com/carolinemichaelsen/intro-section-dropdown" target="_blank">
                   <button className="flex flex-row items-center bg-zinc-300 hover:bg-purple-200 text-zinc-700 font-poppins font-semibold hover:text-purple-700 py-2 px-4 border-purple-500 hover:border-transparent rounded-full text-xs">
                     <AiFillGithub className="mr-2" />
                     Detalhes
@@ -99,7 +99,7 @@ export default function Projects() { return(
                   <AiFillHtml5 className="text-2xl text-zinc-900" />
                   <BsFiletypeCss className="text-2xl text-zinc-900" />
                 </div>
-                <a href="https://github.com/carolinemichaelsen/spotify-clone" target="_blank">
+                <a href="https://github.com/carolinemichaelsen/time-tracking" target="_blank">
                   <button className="flex flex-row items-center bg-zinc-300 hover:bg-purple-200 text-zinc-700 font-poppins font-semibold hover:text-purple-700 py-2 px-4 border-purple-500 hover:border-transparent rounded-full text-xs">
                     <AiFillGithub className="mr-2" />
                     Detalhes
@@ -121,7 +121,7 @@ export default function Projects() { return(
                 className="m-2 hover:opacity-80 cursor-pointer rounded-md"
               />
             </div>
-            <p className="text-zinc-900 font-bold text-xl font-spacegrotesk m-2">Este site :)</p>
+            <p className="text-zinc-900 font-bold text-xl font-spacegrotesk m-2">Esse site :D</p>
           </div>
             <div className="p-4">
               <div className="flex flex-col">
@@ -133,7 +133,7 @@ export default function Projects() { return(
                   <BiLogoTypescript className="text-2xl text-zinc-900" />
                   <BiLogoTailwindCss className="text-2xl text-zinc-900" />
                 </div>
-                <a href="https://github.com/carolinemichaelsen/spotify-clone" target="_blank">
+                <a href="https://github.com/carolinemichaelsen/portfolio" target="_blank">
                   <button className="flex flex-row items-center bg-zinc-300 hover:bg-purple-200 text-zinc-700 font-poppins font-semibold hover:text-purple-700 py-2 px-4 border-purple-500 hover:border-transparent rounded-full text-xs">
                     <AiFillGithub className="mr-2" />
                     Detalhes

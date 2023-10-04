@@ -7,7 +7,7 @@ export default function Footer(){
         <>
             <div className='flex flex-row mt-10 justify-center gap-4'>
                 
-                <a href="https://github.com/carolinemichaelsen/" target="_blank">
+                <a href="https://www.linkedin.com/in/carolinemichaelsen/" target="_blank">
                   <button className="flex flex-row items-center bg-zinc-300 hover:bg-purple-200 text-zinc-700 font-poppins font-semibold hover:text-purple-700 py-2 px-4 border-purple-500 hover:border-transparent rounded-full text-xs">
                     <AiFillLinkedin className="mr-2" />
                     LinkedIn
@@ -16,7 +16,7 @@ export default function Footer(){
                 <a href="https://github.com/carolinemichaelsen/" target="_blank">
                   <button className="flex flex-row items-center bg-zinc-300 hover:bg-purple-200 text-zinc-700 font-poppins font-semibold hover:text-purple-700 py-2 px-4 border-purple-500 hover:border-transparent rounded-full text-xs">
                     <AiFillGithub className="mr-2" />
-                    Detalhes
+                    GitHub
                   </button>
                 </a>
             </div>
