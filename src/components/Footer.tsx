@@ -6,10 +6,21 @@ export default function Footer(){
     return (
         <>
             <div className='flex flex-row mt-10 justify-center gap-4'>
-                <button className='flex flex-row gap-2 bg-transparent hover:bg-purple-400 text-blue-700 font-semibold hover:text-white py-2 px-6 border border-blue-500 hover:border-transparent rounded text-xs mb-10'><AiFillLinkedin />LinkedIn</button>
-                <button className="flex flex-row gap-2 bg-transparent hover:bg-purple-400 text-blue-700 font-semibold hover:text-white py-2 px-6 border border-blue-500 hover:border-transparent rounded text-xs mb-10"><AiFillGithub />GitHub</button>
+                
+                <a href="https://github.com/carolinemichaelsen/" target="_blank">
+                  <button className="flex flex-row items-center bg-zinc-300 hover:bg-purple-200 text-zinc-700 font-poppins font-semibold hover:text-purple-700 py-2 px-4 border-purple-500 hover:border-transparent rounded-full text-xs">
+                    <AiFillLinkedin className="mr-2" />
+                    LinkedIn
+                  </button>
+                </a>
+                <a href="https://github.com/carolinemichaelsen/" target="_blank">
+                  <button className="flex flex-row items-center bg-zinc-300 hover:bg-purple-200 text-zinc-700 font-poppins font-semibold hover:text-purple-700 py-2 px-4 border-purple-500 hover:border-transparent rounded-full text-xs">
+                    <AiFillGithub className="mr-2" />
+                    Detalhes
+                  </button>
+                </a>
             </div>
-            <div className="flex text-xs justify-center p-10">
+            <div className="flex text-xs font-medium justify-center mt-4 p-10">
                 <p>Desenvolvido por Caroline Michaelsen — 2023</p>
             </div>
         </>
